@@ -16,11 +16,16 @@ body {
 
 .jumbotron {
   background-color: #e8e9eb;
+  padding-top: 85px;
 }
 
 h1,
 .jumbotron > p {
   text-align: center;
+}
+
+main {
+  padding-bottom: 70px;
 }
 
 .code {
@@ -38,4 +43,8 @@ h1,
 
 .article-header {
   color: #ef6461;
+}
+
+footer {
+  font-size: 1.5rem;
 }
