@@ -14,6 +14,28 @@ body {
   background-color: #e8e9eb;
 }
 
+.jumbotron {
+  background-color: #e8e9eb;
+}
+
+h1,
+.jumbotron > p {
+  text-align: center;
+}
+
 .code {
   font-family: 'Ubuntu Mono', monospace;
+}
+
+.main-header,
+.article-header {
+  text-align: center;
+}
+
+.main-header {
+  font-size: 3rem;
+}
+
+.article-header {
+  color: #ef6461;
 }
