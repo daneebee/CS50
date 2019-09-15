@@ -25,6 +25,7 @@ h1,
 }
 
 main {
+  padding-top: 70px;
   padding-bottom: 70px;
 }
 
@@ -47,4 +48,22 @@ main {
 
 footer {
   font-size: 1.5rem;
+}
+
+.img-gallery {
+  display: flex;
+  flex-direction: wrap;
+  padding: 0 4px;
+}
+
+.img-column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.img-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
