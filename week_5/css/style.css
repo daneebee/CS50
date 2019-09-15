@@ -1,8 +1,17 @@
 /* global fonts */
 @import url('https://fonts.googleapis.com/css?family=Manjari:400,700|Ubuntu+Mono:400,700&display=swap');
 
+/* main colours 
+pastel red: #ef6461
+earth yellow: #e4b363
+platinum: #e8e9eb
+gainsboro: #e0dfd5
+onyx: #313638
+*/
+
 body {
   font-family: 'Manjari', sans-serif;
+  background-color: #e8e9eb;
 }
 
 .code {
