@@ -1,5 +1,5 @@
 /* global fonts */
-@import url('https://fonts.googleapis.com/css?family=Manjari:400,700|Ubuntu+Mono:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manjari:400,700&display=swap');
 
 /* main colours 
 pastel red: #ef6461
@@ -27,10 +27,6 @@ h1,
 main {
   padding-top: 70px;
   padding-bottom: 70px;
-}
-
-.code {
-  font-family: 'Ubuntu Mono', monospace;
 }
 
 .main-header,
@@ -66,4 +62,16 @@ footer {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+.portrait-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.portrait {
+  height: 50%;
+  width: 50%;
+  border-radius: 5%;
 }
