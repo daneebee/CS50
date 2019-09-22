@@ -9,8 +9,54 @@
     <form action="/form" method="post">
 
         <!-- TODO -->
+        <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" name="firstname" required>
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" name="lastname" required>
+            </div>
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="fav-color">Select you favourite colour</label>
+          <select id="fav-color" class="form-control" name="color" require>
+            <option selected value="">Choose...</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+            <option value="black">black</option>
+          </select>
+        </div>
+        <fieldset class="form-group">
+            <legend>Please select your favourite programming language</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" value="c" id="c" name="programming">
+              <label class="form-check-label" for="c">
+                C
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" value="python" id="python" name="programming">
+              <label class="form-check-label" for="python">
+                Python
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" value="javascript" id="javascript" name="programming">
+              <label class="form-check-label" for="python">
+                Javascript
+              </label>
+            </div>
+        </fieldset>
+        <br>
 
+        <div class="form-group">
+            <label for="comment">Please enter any additional comments</label>
+            <textarea class="form-control" name="comment" id="comment" placeholder="enter your comments here..." rows="5" required></textarea>
+        </div>
         <!-- http://getbootstrap.com/docs/4.1/components/buttons/ -->
+        <br>
         <button class="btn btn-primary" type="submit">Submit</button>
 
     </form>
